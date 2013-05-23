@@ -1,0 +1,35 @@
+
+.hd-container {
+    border-bottom: 1px solid #aaa;
+    border-top: 2px solid transparent;
+    background: url('top-background.jpg') no-repeat center 0;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px #333
+}
+
+.hd-container .navbar {
+    /*margin: 0 20px 0 20px;*/
+    border-radius: 0 !important;
+}
+
+.hd-container h1 {
+    margin-top: 150px;
+}
+
+.hd-container h3 {
+    margin-bottom: 50px;
+}
+
+.hd-container * {
+    color: white;
+    text-shadow: 0px 0px 10px #000;
+}
+
+.ft-container {
+    border-top: 2px solid #ddd;
+    /*padding-top: 15px;*/
+}
+
+.ft-container .row-fluid .span4 {
+    padding: 20px;
+}
